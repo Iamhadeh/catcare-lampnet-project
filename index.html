@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CatCare</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,16 +19,33 @@
                     <div class="menu-item"><button class="btn">Contact Us</button></div>
                 </div>   
             </div>
+
+            <!-- dropdown menu -->
+            <ul class="dropdown-menu">
+                <li><a class="menuItem" href="#">Home</a></li>
+                <li><a class="menuItem" href="#">About</a></li>
+                <li><a class="menuItem" href="#">Our Services</a></li>
+                <li><a class="menuItem" href="#"><button class="btn">Contact Us</button> </a></li>
+              </ul>
+              <button class="hamburger">
+                <!-- material icons https://material.io/resources/icons/ -->
+                <i class="menuIcon material-icons">menu</i>
+                <i class="closeIcon material-icons">close</i>
+              </button>
+
+            <!-- end of dropdown menu -->
             <div class="call-to-action">
                 <h1>Your Cat's New Home</h1>
                 <h2>Where your cat is treated like a family</h2>
-                <button class="btn" id="btn-plain">Book A Meeting</button>
+                <button class="btn" id="btn-plain">Book An Appointment</button>
             </div>
             <div class="cat-image">
                 <img src="./Cat Image.webp" alt="" id="cat-image">
             </div>
         </div>
     </section>
+
+    <!-- this is the dropdown menu --> 
 
     <!-- section 2 -->
 
@@ -36,7 +54,7 @@
             <div class="text-side">
                 <h2>We will take care of your care</h2>
                 <p>Proper care involves providing nutritious food, regular exercise and plenty love and attention to ensure your furry friend leads a healthy and happy life.</p>
-                <button class="btn">Book A Meeting</button>
+                <button class="btn">Book An Appointment</button>
             </div>
             <div class="image-box2">
                 <img src="./cat-image-2.jpg" alt="cat">
@@ -168,7 +186,6 @@
                     Book online call
                     <h3>+234 830 445 8769</h3>
                 </div>
-
             </div>
 
             <!-- second box -->
@@ -212,6 +229,7 @@
         <div class="last-box-line"> copyright©catcare</div>
 
     </footer>
-    
+   
+    <script src="index.js"></script>
 </body>
 </html>
