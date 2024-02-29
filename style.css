@@ -135,7 +135,7 @@ h1 {
 
 #btn-plain {
     background-color: transparent;
-    border: 3px solid red;
+    border: 2px solid red;
     opacity: 0.6;
     width: 150px;
     height: 25px;
@@ -410,6 +410,8 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 0px;
+    margin: 0px;
 }
 
 
@@ -640,7 +642,7 @@ h1 {
 }
 
 #btn-plain {
-    border: 3px solid red;
+    border: 2px solid red;
 }
 
 
