@@ -1,0 +1,143 @@
+
+
+body {
+    background-color: #ffffff;
+}
+
+main {
+    height: 500px;
+    width: 1400px;
+    background-color: #fcd1d2;;
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    background-color:#ffffff;
+    height: 250px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.inside-circle {
+    background-color: #FF0000;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside-text {
+    padding: 0px;
+    margin: 0px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.inside-comment {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+/* ---footer ---- */
+
+footer {
+    height: 400px;
+    width: 1400px;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.inner-layer {
+    height: 260px;
+    width: 1400px;
+    display: flex;
+    gap: 150px;
+    padding-left: 25px;
+}
+
+.first-box {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#Book-call-box {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.second-box {
+    display: flex;
+    position: relative;
+    top: 50px;
+    height: 100px;
+}
+
+.time > div {
+    display: flex;
+    height: 18px;
+    gap: 15px;
+}
+
+.name-of-brand {
+    color: red;
+}
+
+.third-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ }   
+
+
+.fourth-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#services {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+ p {
+    margin: 0;
+    padding: 0;
+}
+
+#resources {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+
+.last-box-line {
+    border-top: 3px solid #fcd1d2;
+    width: 1000px;
+    display: flex;
+    justify-content: flex-end;
+    color: grey;
+    margin: 0px;
+    height: 20px;
+}
