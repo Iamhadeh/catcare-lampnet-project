@@ -11,6 +11,11 @@ body {
     background-color: #fcd1d2;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .container {
     display: none;
 }
@@ -2772,3 +2777,4 @@ footer {
 
 
 }
+
